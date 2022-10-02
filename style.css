@@ -1,0 +1,43 @@
+body {
+    background-image: url(coso.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    background-color: blanchedalmond;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: wavy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: deeppink;
+}
+
+.btn-warning:hover
+{
+    background-color: deeppink;
+}
+
+.btn-container
+{ 
+    position: absolute; 
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    text-align: center;
+    padding: 10px; 
+}
+
+
+canvas {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px purple;}
+    to {box-shadow: 1px 1px 38px palevioletred;}
+}
+
